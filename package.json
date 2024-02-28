@@ -3,7 +3,7 @@
   "author": "chenwei116057 <chenwei116057@gmail.com>",
   "main": "main.js",
   "scripts": {
-    "dev": "max dev && electron .",
+    "dev": "max dev",
     "build": "max build",
     "format": "prettier --cache --write .",
     "prepare": "husky install",
