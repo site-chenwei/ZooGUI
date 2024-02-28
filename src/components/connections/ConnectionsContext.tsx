@@ -19,6 +19,7 @@ export const ConnectionsContextProvider = (props: PropsWithChildren) => {
         setConnections(JSON.parse(localStorage.getItem(StorageKey) || "[]"));
     }, [])
     const setConnections = (connections: Array<Connection>) => {
+        console.log(connections)
         _setConnections(connections)
         localStorage.setItem(StorageKey, JSON.stringify(connections));
     }
